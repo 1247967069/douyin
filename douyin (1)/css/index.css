@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffff;
+}
+
+.page-header{
+  padding-top: 30px;
+  padding-right: 80px;
+  text-align: right;
+}
+
+
+.page-minner img{
+float: left;
+margin-left: 50px;
+height: 100%;
+}
+
+.page-header nav{
+  float: right;
+  margin-right: 150px;
+
+}
+
+.page-header nav a{
+  text-decoration:none;
+  color: #ffffff;
+   font-size:16px;
+   padding:10px;
+}
+
+.page-mainer{
+  width: 450px;
+  position: absolute;
+  top: 45%;
+  right: 130px;
+}
+
+.page-mainer .slogan{
+  float: right;
+  margin-bottom: 50px;
+  width: 450px;
+}
+
+.page-mainer .slogan img{
+  width: 100%;
+}
+
+
+.page-footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-info a{
+  color: #ffffff;
+}
+
+.foote-info p{
+  padding-bottom: 12px;
+}
+
+.b a{
+  margin-top: 15px;
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.c a{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+
+
+
+.page-mainer .button-list{
+  float: right;
+}
+
+.btn-list{
+  float: right;
+  font-size: 0;
+}
+
+.btn-primary{
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 130px;
+  height: 50px;
+  transition: .15s opacity;
+  transition-delay: .15s;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,.54);
+}
+
+.icon-QRcode{
+  float: right;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/qr.png');
+}
+
+.icon-QRcode img{
+  width: 223px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scale(0.23);
+  transform-origin: top right; 
+  opacity: 0;
+  transition: .3s all;
+}
+
+
+.icon-QRcode:hover img{
+
+  transform: scale(1);
+  opacity: 1;
+
+}
+ 
+.icon-ios{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/appstore.png');
+}
+
+.icon-andorid{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/android.png');
+}
+
